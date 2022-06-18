@@ -1,0 +1,53 @@
+    _   __  __ __     ____                 __                                 __     ______                       __   
+   / | / /_/ // /_   / __ \___ _   _____  / /___  ____  ____ ___  ___  ____  / /_   / ____/___  ____  _________  / /__ 
+  /  |/ /_  _  __/  / / / / _ \ | / / _ \/ / __ \/ __ \/ __ `__ \/ _ \/ __ \/ __/  / /   / __ \/ __ \/ ___/ __ \/ / _ \
+ / /|  /_  _  __/  / /_/ /  __/ |/ /  __/ / /_/ / /_/ / / / / / /  __/ / / / /_   / /___/ /_/ / / / (__  ) /_/ / /  __/
+/_/ |_/ /_//_/    /_____/\___/|___/\___/_/\____/ .___/_/ /_/ /_/\___/_/ /_/\__/   \____/\____/_/ /_/____/\____/_/\___/ 
+                                              /_/                                                                      
+
+Welcome to Nsharp v1.5.2.
+This is the development console.
+For more information, please visit http://www.mybutton.org/.
+
+
+                < FUNCTIONS & VARIABLES >
+    Variables & functions are the most important parts of programming.
+    Nsharp also supports them.
+    declaring functions is currently only supported with nsharp-function-file imports.
+    Usage:
+        void function: functionLocation
+        @function(..parameters): functionLocation(..parameters)
+    Nsharp also has a variety of built-in functions.
+    For a list of them, see the Nsharp documentation. (doc())
+    A few of them are:
+        @help()
+        @process.println([...'message'])
+        @process.print([...'message'])
+    
+        ! please note that Nsharp is under development. Function declaring is subject to be changed in the future.
+                
+                < CREATING PROJECTS >
+    Nsharp handles projects with nsh.config.
+    To create a project, execute `nsharp -new` and follow along the prompts to create a new project using a terminal.
+
+                < COMPILING / BUILDING SCRIPTS >
+        Nsharp is normally an interpreted language, but it supports compiling.
+        To compile an nsharp script, use `nsharp /compile:<file>.nsharp` (this will include all functions within the project path, if any exist)
+
+                < RUNNING SCRIPTS >
+        Executing Nsharp scripts is done with `nsharp <file>.nsharp`.
+        If your nsharp script is a compiled (<file>.ns) script, you can use `nsharp <file>` instead.
+        This will execute the script instead of runtime-execting it.
+        
+                < IF STATEMENTS >
+        If statements are under development. They are currently supported, but not yet fully implemented.
+
+
+
+We Hope you will have great fun with this simple library.
+
+
+@'DocVersion': 1.0.0
+@'DocName':    Nsharp-Help
+
+

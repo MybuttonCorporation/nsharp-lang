@@ -1,0 +1,7 @@
+console.write('hello')
+void f: {
+	console.log('f.args:')
+	console.log(args)
+}
+f('hello', 'hi there')
+quit()

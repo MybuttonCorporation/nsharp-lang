@@ -1,0 +1,4 @@
+allowFnExecution: true
+printStartupMessage: true
+allowVoidExecution: true
+useBetaInterpreter: false

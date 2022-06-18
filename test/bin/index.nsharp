@@ -1,0 +1,3 @@
+@system.println("hello, this is ./test/index.js")
+void write: write
+@write("hello, world! [write() <nsvFunction>: void {}]")

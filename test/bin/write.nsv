@@ -1,0 +1,4 @@
+'MESSAGE'
+void message() {
+    console.log(MESSAGE)
+}

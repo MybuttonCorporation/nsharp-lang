@@ -1,0 +1,33 @@
+N# Complete Documentation 
+
+% Syntax
+@someObject.method('someArgs', '.join');
+void test: test;
+... Some comment that will be ignored stating that Test is a function that displays its parameters ...
+@test('param1', 'param2');
+Script.Interrupt({what: 'execution'}, '@quit');
+exit | quit | exit() | quit();
+
+
+§ Functions ()
+
+    + Functions
+    +--▮ Defining
+    |  +--▮ {
+    |      void FunctionName: FunctionFile
+    |      @FunctionName(..params): FunctionFile(..params) [<Typeof Function>, [{Function FunctionName()}];
+    |  }
+    |
+    +--▮ Calling
+       +--▮ {
+           @FunctionName(..params): N#.internal.ParseToObject({from: 'function', to: 'runtime-exec-jsfunc});
+           ... ExampleOf: ParseFunc ...
+                void test: test 
+                ... where test.nsv is a function that logs all parameters to the console ...
+                @test('arg1', 'arg2', 'arg3', 'arg4'..): {
+                    var workerThis = function(..args[]) {
+                        console.log(args.join(' | ')); //joins & writes to console.log;
+                    }(parameters);
+                    workerThis;
+                }();
+       }
